@@ -1,0 +1,262 @@
+@media(max-width: 400px){
+    /* .blue{
+        font-size: 500px;
+    } */
+    html{
+        background-image: cover;
+        /* height: 100%;
+        width: 720px; */
+    }
+    .lion{
+        flex-direction: row;
+    }
+    .t{
+        margin-left: 25px;
+        margin-top: 20px;
+        /* margin-bottom: -100px; */
+    } 
+    .btr{
+        margin-left: 50px;
+    }
+    .sea{
+        margin-left: 50px;
+    }
+    .spc{
+        margin-left: 50px;
+    }
+    .cld{
+        margin-left: 50px;
+    }
+    /* .whts{
+        margin-left: 250px;
+    } */
+}
+@media(max-width: 520px){
+    body{
+        width: 500px;
+    }
+    .btr{
+        margin-left: 0px;
+        padding-left: 35px;
+    }
+    .sea{
+        margin-left: 0px;
+        padding-left: 35px;
+    }
+    .spc{
+        margin-left: 0px;
+        padding-left: 35px;
+    }
+    .cld{
+        margin-left: 0px;
+        padding-left: 35px;
+    }
+    #footer{
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 950px){
+    .t{
+        margin-left: 30px;
+    }
+}
+
+
+@media (min-width:1000px){
+    .t{
+        position: absolute;
+        top: 265px;
+        right: 90px;
+
+    }
+    #footer{
+        margin-top: -130px;
+    }
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+
+
+body{  
+    
+    background-image: url(pxfuel\ \(1\).jpg);
+    
+    background-size: 100% 100%;
+
+    /* max-width: 100%;
+    height: auto; */
+    /* background-size: 1710px 800px; */
+
+    background-size: cover;
+   /* width: 100%; */
+
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    /* font-family: 'Playball'; */
+    /* font-size: 22px; */
+    color: aliceblue;
+}
+
+.btr{
+    float: left;
+    padding: 55px;
+    font-family: 'Playball';
+    font-size: 22px;
+    color: white;
+}
+.btr img:hover{
+    position: relative;
+    top: 2px;
+    box-shadow: 0px 0px 20px 2px rgb(27, 198, 241);
+}
+
+/*in case if we want hover for these headings */
+/* .btr center:hover{
+    color: rgb(66, 66, 224);
+} */
+
+.btr img{
+    height: 200px;
+    border-radius: 25px;
+}
+.spc{
+    padding: 55px;
+    display: inline-block;
+    font-family: 'Playball';
+    font-size: 22px;
+    color: white;
+}
+.spc img{
+    height: 200px;
+    width: 356px;
+    border-radius: 25px;
+}
+.spc img:hover{
+    position: relative;
+    top: 2px;
+    box-shadow: 0px 0px 20px 10px rgb(138, 30, 233);
+}
+.sea{
+    padding: 55px;
+    display: inline-block;
+    font-family: 'Playball';
+    font-size: 22px;
+    color: white;
+}
+.sea img{
+    height: 200px;
+    width: 356px;
+    border-radius: 25px;
+}
+.sea img:hover{
+    position: relative;
+    top: 2px;
+    box-shadow: 0px 0px 20px 10px rgb(236, 95, 95);
+}
+.cld{
+    padding: 55px;
+    display: inline-block;
+    font-family: 'Playball';
+    font-size: 22px;
+    color: white;
+}
+.cld img{
+    height: 200px;
+    width: 356px;
+    border-radius: 25px;
+}
+.cld img:hover{
+    position: relative;
+    top: 2px;
+    box-shadow: 0px 0px 20px 10px rgb(79, 228, 10);
+}
+.like{
+    color: black;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+
+
+.t{
+    /* background-image: url(sea.jpg); */
+    border: 2px solid black;
+    border-radius: 20px;
+    /* border: 2px solid yellow; */
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+
+    font-family: 'Playball';
+    font-size: 22px;
+    font-weight: bold;
+    
+    backdrop-filter: blur(10px);
+}
+.t ul a{
+    color: rgb(21, 250, 246);
+    text-decoration: none;
+}
+.t ul{
+    padding-left: 50px;
+}
+.t ul a:hover{
+    
+    color: black;
+}
+#soc img{
+    padding-left: 5px;
+}
+#den{
+    padding-left: 55px;
+}
+
+.t:hover{
+    box-shadow: 0px 0px 50px 2px black; /*box-shadow: 1px 3px 40px 20px*/
+                                     /* 1px right-side thick color
+                                         3px bottom thick color
+                                         40px light background effect
+                                         20px solid background color*/
+}                                        
+
+
+.lion{
+    margin-top: -24px;
+    display: flex;
+    /* border: 3px solid black; */
+    flex-wrap: wrap;
+}
+
+
+
+
+.column {
+    float: left;
+    /* width: 50%; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+#footer{
+    color: white;
+    text-align: right;
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+}
